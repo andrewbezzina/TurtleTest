@@ -2,7 +2,7 @@
 Turtle traversing a minefield.
 
 Following example as much as possible but since and x and y where sometimes reversed in the example I am using the coordinate system as follows for clarity sake: 
-
+```
 \
  \x= 0   1   2   3   4  N=5
 y=\_____________________
@@ -36,6 +36,8 @@ X Y			| exit  location
 X Y Dir			| initial turtle state.
 R L M M M		| sequence of movement instructions
 ...			| program will read all sequences till end of file.
+
+```
 
 Please make sure TurtleInstructions.txt is in the same directory as the TurtleTest.exe binary. 
 Entry point is TurtleTest>Program.cs
